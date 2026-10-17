@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：用例转XMind"
+  short_description: "将已有用例转为便于审阅的XMind，保留编号、完整步骤预期及来源，并查看转换反馈"
+  default_prompt: "使用 $system-testcase-xmind 将指定测试用例转换为便于审阅的XMind，保留业务分组、编号、完整字段和底线状态，核对完整性并记录审阅反馈。"

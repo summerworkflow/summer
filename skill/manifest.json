@@ -33,6 +33,13 @@
       "version": "2.0.0",
       "path": "skill/system-testcase-design",
       "file_count": 13
+    },
+    {
+      "id": "system-testcase-xmind",
+      "display_name": "测试：用例转XMind",
+      "version": "1.0.0",
+      "path": "skill/system-testcase-xmind",
+      "file_count": 9
     }
   ],
   "files": [
@@ -263,6 +270,60 @@
       "size": 17072,
       "sha256": "76a6124964cb0acb81b3f4549f7725eb154eb029c38f058959d8c14b677e3245",
       "git_blob_sha": "d0c4315f9a99f8abb30b4ad125be819138277910"
+    },
+    {
+      "path": "skill/system-testcase-xmind/agents/openai.yaml",
+      "size": 394,
+      "sha256": "127b8f78299aa7ac03128070063cc93cbdbd6020632c4533525364e92846a4cd",
+      "git_blob_sha": "daaf4cdc5f1fa7261d354673333e20451598e0df"
+    },
+    {
+      "path": "skill/system-testcase-xmind/assets/example-cases.json",
+      "size": 3363,
+      "sha256": "19da3ff39f252a913c4ce26e278c03c47d3ca677fdd16d2535efb257c2ee7b52",
+      "git_blob_sha": "4398b63bb903310c106bbc5fd5c9db247744b74b"
+    },
+    {
+      "path": "skill/system-testcase-xmind/CHANGELOG.md",
+      "size": 666,
+      "sha256": "998f4b613151a12b802f107a9ccb53742d9749af7fd2098504366f1553cadf07",
+      "git_blob_sha": "2e6f1f1f567a003746e9050cce9eaf0ddfa143a6"
+    },
+    {
+      "path": "skill/system-testcase-xmind/references/input-contract.md",
+      "size": 4144,
+      "sha256": "1e4d32a827276494f6330d2bf4101c105a012557e938a90e618f33fa63406c60",
+      "git_blob_sha": "458583514cf6f6f1d9bc8b9655a6b454d6a6d4d0"
+    },
+    {
+      "path": "skill/system-testcase-xmind/references/outcomes.md",
+      "size": 3260,
+      "sha256": "342bf700ca8a1aace9a9ac63ca147a32a8f8c764dcc6c6088df876c99b2782d9",
+      "git_blob_sha": "77e9dd749dd4afa57bddf0884172d02eef78095f"
+    },
+    {
+      "path": "skill/system-testcase-xmind/references/review-layout.md",
+      "size": 3189,
+      "sha256": "d51b6a63a115a6192ab202aa942c6bccdef18dacadb10285df8d70e6ca30b406",
+      "git_blob_sha": "b7fda790ae910a2c8ed052b1b3be1202594f2787"
+    },
+    {
+      "path": "skill/system-testcase-xmind/scripts/xmind_review.py",
+      "size": 23654,
+      "sha256": "3ea7c1bd4d1a1791c1df50d0c78c24d3ac862896f93cadb3b845294938bb436a",
+      "git_blob_sha": "86cd1f7549d8ef62f7d076f7b6ada16e15105744"
+    },
+    {
+      "path": "skill/system-testcase-xmind/SKILL.md",
+      "size": 5052,
+      "sha256": "09f9624865562568d5f426d6f161d184483ccacfc0363b6cb3f0522605d468e4",
+      "git_blob_sha": "d161c42451d29b4684760b742444290bd9368b64"
+    },
+    {
+      "path": "skill/system-testcase-xmind/tests/test_xmind_review.py",
+      "size": 12620,
+      "sha256": "db0ee767f424cf640649941a8dd8cb1b96b2b7d65d7e95a8c1ac344b2cfa59a6",
+      "git_blob_sha": "080ae60e7fad1adb3b76ef445475502a22d376bf"
     }
   ]
 }
