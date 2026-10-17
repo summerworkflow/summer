@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：AI用例转换器"
+  short_description: "把人工用例转为数据、脚本、断言和失败处理明确的AI执行说明，并查看实际使用效果"
+  default_prompt: "使用 $system-ai-testcase-converter 转换给定人工用例，保留原检查点对应，明确数据准备、实际脚本调用、独立断言、证据和失败处理，区分脚本已绑定与当前可执行，并保留后续查看使用效果的记录。"

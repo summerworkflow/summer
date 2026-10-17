@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：需求分析"
+  short_description: "从需求和原型找出真正待确认的问题，用具体场景写清单，并记录确认进展与使用反馈"
+  default_prompt: "使用 $system-requirement-analysis 分析给定需求、交互原型及配套规则，输出包含场景、具体例子、直接问法、接收角色、建议和影响的待确认清单；区分规则冲突、资料未取得和上线配置，保留后续查看确认进展与使用效果的记录。"

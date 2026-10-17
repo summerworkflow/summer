@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-10-17",
+  "selection": {
+    "field": "agents/openai.yaml:interface.display_name",
+    "prefix": "测试："
+  },
+  "skills": [
+    {
+      "id": "system-ai-testcase-converter",
+      "display_name": "测试：AI用例转换器",
+      "version": "1.0.0",
+      "path": "skill/system-ai-testcase-converter",
+      "file_count": 8
+    },
+    {
+      "id": "system-requirement-analysis",
+      "display_name": "测试：需求分析",
+      "version": "1.0.0",
+      "path": "skill/system-requirement-analysis",
+      "file_count": 8
+    },
+    {
+      "id": "system-skill-generator",
+      "display_name": "测试：生成skills",
+      "version": "1.0.0",
+      "path": "skill/system-skill-generator",
+      "file_count": 9
+    },
+    {
+      "id": "system-testcase-design",
+      "display_name": "测试：用例设计",
+      "version": "2.0.0",
+      "path": "skill/system-testcase-design",
+      "file_count": 13
+    }
+  ],
+  "files": [
+    {
+      "path": "skill/system-ai-testcase-converter/agents/openai.yaml",
+      "size": 477,
+      "sha256": "635019f5ba736d5ba66b0344d744ffd1b198c6911f31899eeda013f75777fa02",
+      "git_blob_sha": "e15bd9643363f877b919532ff459bbf80dd936ba"
+    },
+    {
+      "path": "skill/system-ai-testcase-converter/CHANGELOG.md",
+      "size": 954,
+      "sha256": "b72652a48b27262bd8fd1d2ce3d23202cac65d2c57fc65edc59f748a4b130e46",
+      "git_blob_sha": "44d1157a2ccb4f01848988e6d935217bb823d4da"
+    },
+    {
+      "path": "skill/system-ai-testcase-converter/references/conversion-format.md",
+      "size": 5458,
+      "sha256": "41ec2dc53f5eb39383450a140184e6e6ba4fdd63d23b3fde032b552d9b0a7d70",
+      "git_blob_sha": "2d1bf259e80d24519e83422ed44cb6ca3cdd32d7"
+    },
+    {
+      "path": "skill/system-ai-testcase-converter/references/record-and-review.md",
+      "size": 8365,
+      "sha256": "7555db8223f5404f152a8bcbe871f84fbcaf2310662889447501994de5187da9",
+      "git_blob_sha": "defbf454351ee8acab8c6e5d1b43435cc97d634c"
+    },
+    {
+      "path": "skill/system-ai-testcase-converter/references/script-contract.md",
+      "size": 3708,
+      "sha256": "6b23791180587429c9cd71a2ad6549263f4bca85e7a1cfd7c89107084e9b1664",
+      "git_blob_sha": "2851002c6d184115b0df4677eb65e81bceccda4e"
+    },
+    {
+      "path": "skill/system-ai-testcase-converter/scripts/review_conversion.py",
+      "size": 21742,
+      "sha256": "b0af9e3f107fdae4a234cd350b6d4e994b9f7f909a4cd05ed4c849cefcbc75e9",
+      "git_blob_sha": "0cedb818d161c4d86707677168b2a676bae9bb42"
+    },
+    {
+      "path": "skill/system-ai-testcase-converter/SKILL.md",
+      "size": 9351,
+      "sha256": "ea86b7edcf7cc96317219180b1916a8db932c560daae62f69bf3f7dfce8ab523",
+      "git_blob_sha": "3376ece4a4f5970a72117ee0a86689ff575bf8ec"
+    },
+    {
+      "path": "skill/system-ai-testcase-converter/tests/test_review_conversion.py",
+      "size": 12046,
+      "sha256": "ec467d1e177016de495fbebb6f5a67ba8613eb29fe926244b1123aeddbe88fa5",
+      "git_blob_sha": "b07e332b3e6c1db6bdbd6b36d39dab389974e226"
+    },
+    {
+      "path": "skill/system-requirement-analysis/agents/openai.yaml",
+      "size": 514,
+      "sha256": "c407314451547768ad5b8a28f5788a0de289bdf10fc3ac17d5b66676cd809528",
+      "git_blob_sha": "93dc49f995ef5ad34ea75f057d7c1d43914e41b7"
+    },
+    {
+      "path": "skill/system-requirement-analysis/CHANGELOG.md",
+      "size": 1060,
+      "sha256": "309ae0f561cd3f7f404a88ed00672b78f723d9761b8fd781bb6188720bf88f91",
+      "git_blob_sha": "98dd83c09dd37eb28db546d94b86a6964991e70b"
+    },
+    {
+      "path": "skill/system-requirement-analysis/references/acceptance-scenarios.md",
+      "size": 3690,
+      "sha256": "a069e97549bce98131d185c6dedf8b0100be1b37423ec86ddd22de0651b5c044",
+      "git_blob_sha": "284c70a90a61c404e53c4e498a683a85b4015466"
+    },
+    {
+      "path": "skill/system-requirement-analysis/references/checklist-format.md",
+      "size": 3608,
+      "sha256": "2b46ad34a4a15f43f3ad58d1d9a26701a64129d7fbd18b11e7c24f82ac985529",
+      "git_blob_sha": "1f1eba83181d7860a5ea5f6b4bf0b2c03912ab14"
+    },
+    {
+      "path": "skill/system-requirement-analysis/references/record-and-review.md",
+      "size": 7818,
+      "sha256": "7a4a1c0ef02debb2dd5e3e8e529238cece0d24cbed2fdb54922a3639970bc321",
+      "git_blob_sha": "8ffc03e81e1836a97e392830301c67fb554a30ff"
+    },
+    {
+      "path": "skill/system-requirement-analysis/scripts/review_outcomes.py",
+      "size": 18839,
+      "sha256": "36a2664c85ee7cc158a1e9d91977b69505a77146efb24ff786a3bc854a293b96",
+      "git_blob_sha": "6ded04d08b8a1f19ac05274533d36950db4eb5fb"
+    },
+    {
+      "path": "skill/system-requirement-analysis/SKILL.md",
+      "size": 9683,
+      "sha256": "064b78386eb639be47ff91a2f670a55fca3a8e984fe6a6b302869c506c0f2a80",
+      "git_blob_sha": "abdd5caaa757eb77b5d114ac8eb88282d9e47e75"
+    },
+    {
+      "path": "skill/system-requirement-analysis/tests/test_review_outcomes.py",
+      "size": 10744,
+      "sha256": "f05c7d73216a75e50c14aa4fdb666fec9a364bab13b604d1ba6aacc724e35b00",
+      "git_blob_sha": "6da4283d764e8751066b8ffae8cc0e780ca7622f"
+    },
+    {
+      "path": "skill/system-skill-generator/agents/openai.yaml",
+      "size": 430,
+      "sha256": "85c651123998408be487a8ab744102cb9ace754bd2c74b6d52573f1cebb3366f",
+      "git_blob_sha": "16373d4119753155d764d3712801287fb0af37f9"
+    },
+    {
+      "path": "skill/system-skill-generator/CHANGELOG.md",
+      "size": 1002,
+      "sha256": "12e59fae1d850d1e3bc5f0c4312f0c558afb51f3dcc8ab92237efb76201c0cd2",
+      "git_blob_sha": "74b26c52aa56d2994535a9fb5e6db3d59a2a5d4c"
+    },
+    {
+      "path": "skill/system-skill-generator/references/acceptance.md",
+      "size": 1952,
+      "sha256": "0d051cf87551c790ae5d92e8ed58463ea63d5bf5c7bfde0e7d218c07a9f4fd21",
+      "git_blob_sha": "8c73913951ed3f0f932521592d2b826fd2b8d61b"
+    },
+    {
+      "path": "skill/system-skill-generator/references/authoring-and-release.md",
+      "size": 5486,
+      "sha256": "23af7b8e8b607070f264ffe0c0310843f02ccc501d959d6b9825dc12b2ac8ce5",
+      "git_blob_sha": "0dae3b5cbd45ff6dee29179667d068342488c2e9"
+    },
+    {
+      "path": "skill/system-skill-generator/references/outcomes.md",
+      "size": 6141,
+      "sha256": "695576c285bd69fe0cca82406b143e1bf90748792e6ff3a66b86020a05aeb460",
+      "git_blob_sha": "24d0f66c9c9567faf84b561c6d184bd75168b664"
+    },
+    {
+      "path": "skill/system-skill-generator/references/user-rules.md",
+      "size": 6076,
+      "sha256": "16892f74ffb37dc65103f72144e3e164e785a08905126bd3796555847e8e8f0f",
+      "git_blob_sha": "8cacf53eb80d3d865b44a8902aca5a09c2c5f82f"
+    },
+    {
+      "path": "skill/system-skill-generator/scripts/review_generation.py",
+      "size": 10333,
+      "sha256": "3970c24bd39908649ec08360507dad4be2c56598f78ca4fd37dc613c2414f2f1",
+      "git_blob_sha": "2a57137c61dc9b9903dcab972cf23ed220e881af"
+    },
+    {
+      "path": "skill/system-skill-generator/SKILL.md",
+      "size": 6178,
+      "sha256": "1b8fcf21b8c0d4456f6182ac60103e7b8ed138479552f28372719c26e6930f94",
+      "git_blob_sha": "0d6edb37f3bf3bf761e54cc2fa331dff636702ea"
+    },
+    {
+      "path": "skill/system-skill-generator/tests/test_review_generation.py",
+      "size": 9237,
+      "sha256": "e19317740cc28b5aafd69b7436080ea675c8533f9611e5bf80b60916e272ec7d",
+      "git_blob_sha": "477d385a0d1aa2bd894a7f0d83c3258e694cf5cb"
+    },
+    {
+      "path": "skill/system-testcase-design/agents/openai.yaml",
+      "size": 509,
+      "sha256": "898fb538c2bfce0c71bc29ff05bcae83910f3c9524c03d9d4b51eb4f11e6d1ad",
+      "git_blob_sha": "3a30a96716b012849b5ea885ebe8839c919d4313"
+    },
+    {
+      "path": "skill/system-testcase-design/CHANGELOG.md",
+      "size": 3584,
+      "sha256": "f2d443b70bab6e3de60019b55007e00337b59d1e91247cf5607b3a7af4542c00",
+      "git_blob_sha": "e775558a3dbbeb60ce2f7df3a796dd3d7f2719be"
+    },
+    {
+      "path": "skill/system-testcase-design/references/acceptance-scenarios.md",
+      "size": 2263,
+      "sha256": "d8253b34f640c3909d51ec59383144ac0e75ce121cff3f70afb02a392b55ff3d",
+      "git_blob_sha": "d1e0733881ff4e5cfe2ff693f4c913d1785ddeeb"
+    },
+    {
+      "path": "skill/system-testcase-design/references/bottomline-selection.md",
+      "size": 3971,
+      "sha256": "70b1d8a75f6a422ea6aa6a700abc55c066716f3043c34e45b462cdf09fcd1a98",
+      "git_blob_sha": "b44a2e8e5d3edf29b72bc255413f36c0f648de3a"
+    },
+    {
+      "path": "skill/system-testcase-design/references/case-contract.md",
+      "size": 6585,
+      "sha256": "65558dd9a4ea61cf8ee94e8a0e2d24b48cd4fa2775c594e4ad6e119ee5eaee5d",
+      "git_blob_sha": "09c4a738c61f7cbf27f5c789f315ba36e9fa6be9"
+    },
+    {
+      "path": "skill/system-testcase-design/references/data-preparation-design.md",
+      "size": 6626,
+      "sha256": "55fd28742b4fa763fed16712cb4053dbee06b4d3ff9680cab0847a634be2ecf3",
+      "git_blob_sha": "9d40962c331c14f5450413d73dd9e811c95d5711"
+    },
+    {
+      "path": "skill/system-testcase-design/references/design-methods.md",
+      "size": 4726,
+      "sha256": "bcffd2918cf00b226d722e27865b136c283288a763950acf8b1a7afa8a8dfe74",
+      "git_blob_sha": "6a69d19d63a0efce0650d0775950c598cf7cd322"
+    },
+    {
+      "path": "skill/system-testcase-design/references/record-and-review.md",
+      "size": 11216,
+      "sha256": "6fe05ac84d79aba1d1c8fbef7ca727a5d642f788aa6a70b237282ac22170634e",
+      "git_blob_sha": "099212f38162cdef7ece9fed99cd0aad6f74203f"
+    },
+    {
+      "path": "skill/system-testcase-design/references/scenario-design.md",
+      "size": 3881,
+      "sha256": "dd63b9f5cf6038c7b6988b2ea36653f2303409ea092ac0e305ccdd627b1cd584",
+      "git_blob_sha": "e479656d4487dd9742d189a4752df0b849512e3f"
+    },
+    {
+      "path": "skill/system-testcase-design/references/worked-example.md",
+      "size": 9574,
+      "sha256": "af818c0efa3f6db76efc9b5b6016e8d40748f76a284cf3ef3bc31f94436c465b",
+      "git_blob_sha": "ea130c4c0b81cc0bd203ae3933f989843c9a2422"
+    },
+    {
+      "path": "skill/system-testcase-design/scripts/design_records.py",
+      "size": 27057,
+      "sha256": "78b44cf05dd1d29b54f43ae0de183be1f9e8235b4d8ba79854164b18915aa266",
+      "git_blob_sha": "bfebe045c673ba95ce88b70b645dcc7e51c5b1d7"
+    },
+    {
+      "path": "skill/system-testcase-design/SKILL.md",
+      "size": 7610,
+      "sha256": "3e73a6fe1bcf48ffb1943c018b310241b1e9c902ce7b6c4c90c4c7d70b055009",
+      "git_blob_sha": "2b4c9884b5fb2326dbac5193feb92f6adba2201b"
+    },
+    {
+      "path": "skill/system-testcase-design/tests/test_design_records.py",
+      "size": 17072,
+      "sha256": "76a6124964cb0acb81b3f4549f7725eb154eb029c38f058959d8c14b677e3245",
+      "git_blob_sha": "d0c4315f9a99f8abb30b4ad125be819138277910"
+    }
+  ]
+}

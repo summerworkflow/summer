@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：用例设计"
+  short_description: "生成全部用例与不可替代底线用例两份文档，保留原子目标、版本、准备方案和实际效果反馈"
+  default_prompt: "使用 $system-testcase-design 基于给定需求设计原子测试用例，采用适用的ISTQB方法、交易异常检查与PICT组合覆盖，交付全部测试用例和不可替代的业务底线用例两份文档，分列已核定与候选，并保留版本及效果回收记录。"

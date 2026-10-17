@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：生成skills"
+  short_description: "按既有要求创建和修订原子化测试技能，维护版本、可读交付及实际效果回收查看"
+  default_prompt: "使用 $system-skill-generator 整理当前适用的技能生成要求，创建或修订一个职责明确的测试skill，完成版本化、可读交付及效果回收查看，并区分通用规则与场景专属规则。"
