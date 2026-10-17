@@ -47,6 +47,13 @@
       "version": "1.0.0",
       "path": "skill/system-risk-analysis",
       "file_count": 7
+    },
+    {
+      "id": "system-testcase-review",
+      "display_name": "测试：用例评审",
+      "version": "1.0.0",
+      "path": "skill/system-testcase-review",
+      "file_count": 8
     }
   ],
   "files": [
@@ -373,6 +380,54 @@
       "size": 5020,
       "sha256": "04de7fdb9dfe66b415dcc6a8dd54e18fd8186713eafeae33a752941947e9bcd4",
       "git_blob_sha": "80c539b2dac37e8ef45c5baead0a939e94e2f3d3"
+    },
+    {
+      "path": "skill/system-testcase-review/agents/openai.yaml",
+      "size": 467,
+      "sha256": "c6e4e2c905df95e6faec7823f691eafd58ba726df4df675d2ebff9db550af12f",
+      "git_blob_sha": "cd867a13c8d37c59f923642f5943ff4400dec8fe"
+    },
+    {
+      "path": "skill/system-testcase-review/CHANGELOG.md",
+      "size": 565,
+      "sha256": "fe342e9dad6456551188bff97ca4cf136c525bfa597f968d666cf89433ee7747",
+      "git_blob_sha": "58ec1a5a6acea76cedf94045f95591973719f179"
+    },
+    {
+      "path": "skill/system-testcase-review/references/acceptance.md",
+      "size": 3001,
+      "sha256": "e9fada2b63f016b7c732a1d0ac5faf8e1ed1e70312cd65d2a66cd96c12baeee6",
+      "git_blob_sha": "55f8a7df9337a7543348e69c25836c3c41ea0cd2"
+    },
+    {
+      "path": "skill/system-testcase-review/references/borrowed-sources.md",
+      "size": 3741,
+      "sha256": "8f803ae151fe8101f67be95afa08f64d40f1b0b4a4c9c2830de3d9674d44c520",
+      "git_blob_sha": "f93174857364bd82062b055989b4ab5400d88bca"
+    },
+    {
+      "path": "skill/system-testcase-review/references/outcomes.md",
+      "size": 2787,
+      "sha256": "9e2a6ea0fdcc21531571974bf7a86f9970c76fd0ea864c2a7c374f8c92da8b6b",
+      "git_blob_sha": "5dc849e67a4f80d2f4c64a814788c559784728cb"
+    },
+    {
+      "path": "skill/system-testcase-review/references/report-format.md",
+      "size": 3420,
+      "sha256": "7b918a5024b4cb50deb4d0120fb1bd06f2ec6681384712cac59e6342670b9c34",
+      "git_blob_sha": "aba41567a0ddae192cf8720152864cf25f583b8a"
+    },
+    {
+      "path": "skill/system-testcase-review/references/review-checklist.md",
+      "size": 5044,
+      "sha256": "a0fb0a5709c2ef289621a3d8df8059236e1aac5fc6a255fb80637f8f6ee7328f",
+      "git_blob_sha": "03b827661a57f2c33f7a8f32bf4d8fba71a55b05"
+    },
+    {
+      "path": "skill/system-testcase-review/SKILL.md",
+      "size": 5291,
+      "sha256": "e6d0956b22984d078b108a16345f6e77d4c7cbadfa4b294437cd25b50574dfa2",
+      "git_blob_sha": "a392cad5efe3b42ef31b03ce190c6884dad8f9ef"
     }
   ]
 }

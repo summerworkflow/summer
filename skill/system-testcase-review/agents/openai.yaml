@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：用例评审"
+  short_description: "对照需求和风险评审已有用例的覆盖、预期、前置与底线，输出可定位问题并查看实际效果"
+  default_prompt: "使用 $system-testcase-review 对照适用需求、风险和已有依据评审指定测试用例，检查覆盖、预期、前置、证据及不可替代底线，给出可定位问题、修改顺序和结论边界，并保留实际评审反馈。"
