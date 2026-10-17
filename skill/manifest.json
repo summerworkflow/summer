@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "snapshot_date": "2026-10-17",
+  "snapshot_date": "2026-10-18",
   "selection": {
     "field": "agents/openai.yaml:interface.display_name",
     "prefix": "测试："
@@ -40,6 +40,13 @@
       "version": "1.0.0",
       "path": "skill/system-testcase-xmind",
       "file_count": 9
+    },
+    {
+      "id": "system-risk-analysis",
+      "display_name": "测试：风险分析",
+      "version": "1.0.0",
+      "path": "skill/system-risk-analysis",
+      "file_count": 7
     }
   ],
   "files": [
@@ -324,6 +331,48 @@
       "size": 12620,
       "sha256": "db0ee767f424cf640649941a8dd8cb1b96b2b7d65d7e95a8c1ac344b2cfa59a6",
       "git_blob_sha": "080ae60e7fad1adb3b76ef445475502a22d376bf"
+    },
+    {
+      "path": "skill/system-risk-analysis/agents/openai.yaml",
+      "size": 471,
+      "sha256": "48b1261c098400e876efcae80330ca57f355947b8a4e3dc1c674e5b079e379ae",
+      "git_blob_sha": "02edc49aaa957252251713964d8f023d6bfd39bb"
+    },
+    {
+      "path": "skill/system-risk-analysis/CHANGELOG.md",
+      "size": 617,
+      "sha256": "db66d5a38de641852c1ba69907de667774481a2b3ffc5b8516c0cdf246938a18",
+      "git_blob_sha": "5c6f1cd9febe2be7fa7a80a2f512bf4f939c33bd"
+    },
+    {
+      "path": "skill/system-risk-analysis/references/acceptance.md",
+      "size": 2766,
+      "sha256": "7e8194ef68c6fc8fce908e2ba4c807a4b499353273d07e01fe7bf940b5775ba5",
+      "git_blob_sha": "52fb48b48bfba01284a5823bbdeb50d378fe8c9a"
+    },
+    {
+      "path": "skill/system-risk-analysis/references/outcomes.md",
+      "size": 3674,
+      "sha256": "79b6059db2db52e01acea1499eebe22289156b7f8db7a428207a07d8f1bd0890",
+      "git_blob_sha": "a3eba6d8d107867df6cd698acba030fd0b69652f"
+    },
+    {
+      "path": "skill/system-risk-analysis/references/report-format.md",
+      "size": 3134,
+      "sha256": "a978c304ceb7089668d9e3651ef2b7154c15008f7358d0ede33e362d241fcb8f",
+      "git_blob_sha": "d5ebbc0535347dcc44a63a7f2cbd22cc5e7b082b"
+    },
+    {
+      "path": "skill/system-risk-analysis/references/risk-method.md",
+      "size": 4976,
+      "sha256": "105ee52fbe46ab78a9a1a431b083294afe468be41fe91ca87f94f605ed17f7f6",
+      "git_blob_sha": "3af5e52556026fe5b68d61f298b6cf11f68dac12"
+    },
+    {
+      "path": "skill/system-risk-analysis/SKILL.md",
+      "size": 5020,
+      "sha256": "04de7fdb9dfe66b415dcc6a8dd54e18fd8186713eafeae33a752941947e9bcd4",
+      "git_blob_sha": "80c539b2dac37e8ef45c5baead0a939e94e2f3d3"
     }
   ]
 }

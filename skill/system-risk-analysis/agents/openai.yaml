@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：风险分析"
+  short_description: "分析业务失败场景、后果、防护与验证优先级，生成独立风险分析并回收查看实际效果"
+  default_prompt: "使用 $system-risk-analysis 分析给定需求、变更或业务流程的风险，输出可审阅的业务风险分析，保留来源、触发条件、后果、现有防护及验证重点，区分事实、推断和待确认，并记录后续使用反馈。"
