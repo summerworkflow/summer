@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：用例执行"
+  short_description: "按已有用例执行并逐项留证，保留首轮、阻塞重试与回归，核对完成范围并查看效果"
+  default_prompt: "使用 $system-testcase-execution，在已授权范围按已有用例执行，核实前置并逐断言留证，保留首轮及恢复回归记录，交付执行台账和未证实范围。"

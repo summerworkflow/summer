@@ -9,6 +9,7 @@
 | 测试：用例设计 | 2.0.0 | [system-testcase-design](system-testcase-design/SKILL.md) | 设计全部用例和不可替代业务底线用例，回收并查看设计效果 |
 | 测试：用例评审 | 1.0.0 | [system-testcase-review](system-testcase-review/SKILL.md) | 对照需求和风险评审覆盖、预期、前置、证据及底线，输出可定位问题并回收实际效果 |
 | 测试：前置准备 | 1.0.0 | [system-test-data-preparation](system-test-data-preparation/SKILL.md) | 从已有用例倒推合法数据及能力依赖，核实分支就绪、交接阻塞并查看实际效果 |
+| 测试：用例执行 | 1.0.0 | [system-testcase-execution](system-testcase-execution/SKILL.md) | 按已有用例实际执行、恢复与回归，逐断言留证，保留首轮并核对台账收口及实际效果 |
 | 测试：AI用例转换器 | 1.0.0 | [system-ai-testcase-converter](system-ai-testcase-converter/SKILL.md) | 将已有人工用例转换为 AI 执行说明，查看转换效果 |
 | 测试：生成skills | 1.0.0 | [system-skill-generator](system-skill-generator/SKILL.md) | 创建或修订原子化、版本化、可读且可回收效果的测试 skill |
 | 测试：用例转XMind | 1.0.0 | [system-testcase-xmind](system-testcase-xmind/SKILL.md) | 将已有用例转为审阅索引与完整详情两页 XMind，核对保真并查看审阅反馈 |
@@ -23,4 +24,4 @@
 
 版本变更见各技能的 CHANGELOG.md；效果记录协议和查看命令见对应 SKILL.md、references 及 scripts。上传完成、结构自测和真实使用效果分别记录，实际收益须由后续使用反馈证明。
 
-[manifest.json](manifest.json) 列出本次 70 个技能文件的字节数、SHA-256 和 Git blob SHA，便于核对快照完整性。
+[manifest.json](manifest.json) 列出本次 80 个技能文件的字节数、SHA-256 和 Git blob SHA，便于核对快照完整性。

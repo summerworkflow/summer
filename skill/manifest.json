@@ -61,6 +61,13 @@
       "version": "1.0.0",
       "path": "skill/system-test-data-preparation",
       "file_count": 8
+    },
+    {
+      "id": "system-testcase-execution",
+      "display_name": "测试：用例执行",
+      "version": "1.0.0",
+      "path": "skill/system-testcase-execution",
+      "file_count": 10
     }
   ],
   "files": [
@@ -483,6 +490,66 @@
       "size": 4823,
       "sha256": "fb7ace85fcd7a7afa3427800cf2ebe58be59b9446b55752b394186cada87d85d",
       "git_blob_sha": "ae9c7f0e09cbf1130b0cf9b6f6e2e45ec86d6fda"
+    },
+    {
+      "path": "skill/system-testcase-execution/agents/openai.yaml",
+      "size": 397,
+      "sha256": "baea42b5b8ab60a7363250a1ec3a5567995946dbe26e60cbe0a6458c25cae3a9",
+      "git_blob_sha": "3de1b9021d74bd7e860a38d381a0a67e361552ba"
+    },
+    {
+      "path": "skill/system-testcase-execution/CHANGELOG.md",
+      "size": 649,
+      "sha256": "6f7601dc520bffe11bb796f06976739ebf2ca9a286e1a54ae75cb3b68919fc05",
+      "git_blob_sha": "b7a09df4e07c914dbdee99c815408da40f3a93fe"
+    },
+    {
+      "path": "skill/system-testcase-execution/references/acceptance.md",
+      "size": 2296,
+      "sha256": "6904e066e94f3f8a52c5f82d6cd991d6a3c212a152ad58937a3c95c3ebe263a7",
+      "git_blob_sha": "27b4bb5e6ebf24aead43709b1803eb1f1df74ec8"
+    },
+    {
+      "path": "skill/system-testcase-execution/references/execution-and-recovery.md",
+      "size": 6136,
+      "sha256": "45a92374e9369e59fd3cd6a02be31c74878e09f6e065c7504b678b640a1102ed",
+      "git_blob_sha": "3d9c1f29a2d4a75b85810e5e59a97de29048e11d"
+    },
+    {
+      "path": "skill/system-testcase-execution/references/ledger-and-evidence.md",
+      "size": 7375,
+      "sha256": "ff1bf5e9f06d41c42f90d0ccb6999c8bed146a7a7726b9a5c436092b17fcb5fa",
+      "git_blob_sha": "9e8b8fd9a3d50533321cad61941c1887b13ae919"
+    },
+    {
+      "path": "skill/system-testcase-execution/references/outcomes.md",
+      "size": 2954,
+      "sha256": "bfd971dfffc116d2026000faa76b6bc750a1c3352a9d4aa18bc97a8f334bcd43",
+      "git_blob_sha": "461a4876afd892ac911dcdcc7236eac30a084b1b"
+    },
+    {
+      "path": "skill/system-testcase-execution/references/sources-and-boundaries.md",
+      "size": 1806,
+      "sha256": "9ab869a2d5522793b52081e083d6240b6b8f60ba2c0380a91768d6783fc86e8e",
+      "git_blob_sha": "983d08ce85fa56f03180284452fa4463a8f05766"
+    },
+    {
+      "path": "skill/system-testcase-execution/scripts/review_execution.py",
+      "size": 14550,
+      "sha256": "1b6e0b35404f9627940c324a543794a0b61f2e2c8427ad9a22a695d1d736468b",
+      "git_blob_sha": "bb367cbe0699191e3e84c985923a6d4a878ed143"
+    },
+    {
+      "path": "skill/system-testcase-execution/SKILL.md",
+      "size": 5797,
+      "sha256": "818f9cacb0b4ab835facf84d604796616cd6f06baa84d971a2764b5ce213cf33",
+      "git_blob_sha": "be7ac47c8387bb7c4797e67f299b38ef5d9d9134"
+    },
+    {
+      "path": "skill/system-testcase-execution/tests/test_review_execution.py",
+      "size": 12107,
+      "sha256": "10b9c7f860d6dbe22fe863ef16b96f0e4674eec7c82bce3eff63f85bc8647999",
+      "git_blob_sha": "f8ab1d08afdd5ebbf2900287f215af1c8dd87696"
     }
   ]
 }
