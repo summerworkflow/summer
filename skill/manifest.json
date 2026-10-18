@@ -54,6 +54,13 @@
       "version": "1.0.0",
       "path": "skill/system-testcase-review",
       "file_count": 8
+    },
+    {
+      "id": "system-test-data-preparation",
+      "display_name": "测试：前置准备",
+      "version": "1.0.0",
+      "path": "skill/system-test-data-preparation",
+      "file_count": 8
     }
   ],
   "files": [
@@ -428,6 +435,54 @@
       "size": 5291,
       "sha256": "e6d0956b22984d078b108a16345f6e77d4c7cbadfa4b294437cd25b50574dfa2",
       "git_blob_sha": "a392cad5efe3b42ef31b03ce190c6884dad8f9ef"
+    },
+    {
+      "path": "skill/system-test-data-preparation/agents/openai.yaml",
+      "size": 373,
+      "sha256": "d3266001a6fc0feafdfa3e4295db0c38472322bca8364b1c7f4a435baf2473a6",
+      "git_blob_sha": "cacf1cdb1acf4527842cc5a795adf816b0aa2e37"
+    },
+    {
+      "path": "skill/system-test-data-preparation/CHANGELOG.md",
+      "size": 617,
+      "sha256": "661731d2197cec918408471d4a7c8d7fcad17aa9d46c15119783e02636c4f747",
+      "git_blob_sha": "bae12c66684f245a6716c33260e22285be29ccba"
+    },
+    {
+      "path": "skill/system-test-data-preparation/references/acceptance.md",
+      "size": 2472,
+      "sha256": "32851493c469c0652c674d94d69d9b354db8e0be737b48f9b3d1dd820ee3f343",
+      "git_blob_sha": "68d7e4ed4074a55a701765eff4c8c499131e26bf"
+    },
+    {
+      "path": "skill/system-test-data-preparation/references/outcomes.md",
+      "size": 3710,
+      "sha256": "2f6afd4defeac17beeb099a8df1b9c036933de3b479dde069adf8db1f73074bc",
+      "git_blob_sha": "e50de8f3739f52e969aaaf86d876a76ea9fe12ce"
+    },
+    {
+      "path": "skill/system-test-data-preparation/references/preparation-method.md",
+      "size": 6248,
+      "sha256": "ab4933736f3f7ede75f74ff9d46e496aaff32cbaa649b7f9c187ce2b8870aa55",
+      "git_blob_sha": "643ba3e1d58c73749342e12048a4a66414ebb411"
+    },
+    {
+      "path": "skill/system-test-data-preparation/references/report-format.md",
+      "size": 5724,
+      "sha256": "811c651db285962040df433d132536602d9b96987faf29b1955d3002450bb975",
+      "git_blob_sha": "db03a1784600baf32e8cdc2d45f1d96154694557"
+    },
+    {
+      "path": "skill/system-test-data-preparation/references/sources-and-boundaries.md",
+      "size": 1929,
+      "sha256": "ae826a1992b07e086dc8cd6bc6272b80efbe293882bd1c06e42e3651213fc8c5",
+      "git_blob_sha": "2f774a351fc2d3bff049890f7d13bc6316f07686"
+    },
+    {
+      "path": "skill/system-test-data-preparation/SKILL.md",
+      "size": 4823,
+      "sha256": "fb7ace85fcd7a7afa3427800cf2ebe58be59b9446b55752b394186cada87d85d",
+      "git_blob_sha": "ae9c7f0e09cbf1130b0cf9b6f6e2e45ec86d6fda"
     }
   ]
 }

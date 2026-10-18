@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试：前置准备"
+  short_description: "从测试用例倒推合法数据与能力依赖，区分计划和本轮就绪，交接阻塞并查看效果"
+  default_prompt: "使用 $system-test-data-preparation，依据已有用例整理前置准备；仅规划时不执行造数，实际准备沿当前授权验证并交付就绪证据。"
